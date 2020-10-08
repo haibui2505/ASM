@@ -1,0 +1,4 @@
+#Wed Sep 30 09:38:22 ICT 2020
+base.0=D\:\\Dell M4700\\Desktop\\Androi\\Lab33\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
