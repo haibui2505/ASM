@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="wifi_connected">Da ket noi WIFI!</string>
+    <string name="lost_connected">Khong ket noi WIFI</string>
+    <string name="connection_error">Loi ket noi!</string>
+    <string name="xml_error">Loi XML!</string>
+    <string name="page_title">Wellcome!</string>
+    <string name="updated">Updated!</string>
+    <string name="click">CLICK!</string>
+</resources>
