@@ -1,0 +1,40 @@
+<resources>
+
+
+
+
+    <string name="txt_data">xxxxxxxxxxxxxxxxxxx</string>
+    <string name="app_name">Mama</string>
+    <string name="txt_start_trip">Bắt đầu</string>
+    <string name="txt_stop_trip">Dừng</string>
+    <string name="txt_logo">Mama</string>
+    <string name="txt_continue">Continue</string>
+    <string name="txt_customer">Khách hàng</string>
+    <string name="txt_product">Mama</string>
+    <string name="txt_driver">Ship</string>
+    <string name="txt_demo">xxxxxxxxxxxxxxxxxxx</string>
+    <string name="txt_press_back">Nhấn thêm lần nữa để thoát</string>
+    <string name="txt_settings">Cài đặt</string>
+    <string name="txt_trip_status">Trạng thái hàng</string>
+    <string name="txt_tracking_status">Trạng thái TK</string>
+    <string name="txt_start_tracking">START</string>
+    <string name="txt_name">Nhập id</string>
+    <string name="txt_title">Nhập đơn</string>
+    <string name="txt_enter_user_id">Nhập id</string>
+    <string name="txt_message">Ghi chú</string>
+    <string name="txt_tracking_msg">GPS</string>
+    <string name="text_location_disabled">Chưa bật GPS</string>
+    <string name="text_no_internet">Chưa bật Internet</string>
+    <string name="text_enter_valid_id">Không được để trống id</string>
+    <string name="text_location_permission">Bật quyền GPS</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_cancel">Hủy</string>
+    <string name="txt_wait_start_trip">Đang bắt đầu...</string>
+    <string name="txt_wait_stop_trip">...</string>
+    <string name="txt_continue1">Tiếp tục</string>
+    <string name="txt_enter_tracking">Nhập id để theo dõi</string>
+    <string name="txt_notify_users">xxx User</string>
+    <string name="txt_enter_tracking_id">Nhập id theo dõi</string>
+    <string name="txt_empty_trip">Danh sách giao hàng</string>
+
+</resources>
