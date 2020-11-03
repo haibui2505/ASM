@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.pk01537_duy.phoBien">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/abc"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+                    <TextView
+                        android:id="@+id/edittext_tenNguoiDung"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="76dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/b"
+                        android:gravity="center"
+                        android:text="@string/ng_nh_p"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/abcabc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#A8B7D6"
+                    android:orientation="vertical">
+
+
+                    <!--        </FrameLayout>-->
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <GridLayout
+                                android:id="@+id/grid1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginEnd="0dp"
+                                android:layout_marginBottom="0dp"
+                                android:padding="10dp">
+
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="120dp"
+                                    android:layout_row="0"
+                                    android:layout_column="0"
+                                    android:layout_columnWeight="1"
+                                    android:layout_margin="10dp"
+                                    android:elevation="1dp"
+                                    app:cardCornerRadius="10dp">
+
+                                    <LinearLayout
+                                        android:id="@+id/lil_taoDon"
+                                        android:layout_width="150dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="80dp"
+                                            android:src="@drawable/xx2">
+
+                                        </ImageView>
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="@font/b"
+                                            android:text="Đơn hàng"
+                                            android:textAlignment="center"
+                                            android:textSize="15sp"></TextView>
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="120dp"
+                                    android:layout_row="0"
+                                    android:layout_column="1"
+                                    android:layout_columnWeight="1"
+                                    android:layout_margin="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:elevation="1dp"
+                                    app:cardCornerRadius="10dp">
+
+                                    <LinearLayout
+                                        android:id="@+id/lil_baiHat"
+                                        android:layout_width="150dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="80dp"
+                                            android:src="@drawable/xx1">
+
+                                        </ImageView>
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="@font/b"
+                                            android:text="Bài hát"
+                                            android:textAlignment="center"
+                                            android:textSize="15sp"></TextView>
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="120dp"
+                                    android:layout_row="1"
+                                    android:layout_rowSpan="1"
+                                    android:layout_column="0"
+                                    android:layout_columnWeight="1"
+                                    android:layout_margin="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:elevation="5dp"
+                                    app:cardCornerRadius="10dp">
+
+                                    <LinearLayout
+                                        android:id="@+id/lil_Excel"
+                                        android:layout_width="150dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="80dp"
+                                            android:src="@drawable/mm12">
+
+                                        </ImageView>
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="@font/b"
+                                            android:text="Xem bớt"
+                                            android:textAlignment="center"
+                                            android:textSize="15sp"></TextView>
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="120dp"
+                                    android:layout_row="1"
+                                    android:layout_column="1"
+                                    android:layout_columnWeight="1"
+                                    android:layout_margin="10dp"
+                                    android:layout_marginVertical="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:elevation="5dp"
+                                    app:cardCornerRadius="10dp">
+
+                                    <LinearLayout
+                                        android:id="@+id/lil_chatLuong"
+                                        android:layout_width="150dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="80dp"
+                                            android:src="@drawable/mm11">
+
+                                        </ImageView>
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="@font/b"
+                                            android:text="Xem bớt"
+                                            android:textAlignment="center"
+                                            android:textSize="15sp"></TextView>
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="120dp"
+                                    android:layout_row="2"
+                                    android:layout_column="0"
+                                    android:layout_columnWeight="1"
+                                    android:layout_margin="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:elevation="5dp"
+                                    app:cardCornerRadius="10dp">
+
+                                    <LinearLayout
+                                        android:id="@+id/lil_more"
+                                        android:layout_width="150dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="80dp"
+                                            android:src="@drawable/mm1">
+
+                                        </ImageView>
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="@font/b"
+                                            android:text="Xem thêm"
+                                            android:textAlignment="center"
+                                            android:textSize="15sp"></TextView>
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="120dp"
+                                    android:layout_row="2"
+                                    android:layout_column="1"
+                                    android:layout_columnWeight="1"
+                                    android:layout_margin="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:elevation="5dp"
+                                    app:cardCornerRadius="10dp">
+
+                                    <LinearLayout
+                                        android:id="@+id/lil_more"
+                                        android:layout_width="150dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center"
+                                        android:orientation="vertical"
+                                        tools:ignore="DuplicateIds">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="80dp"
+                                            android:src="@drawable/mm2">
+
+                                        </ImageView>
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="@font/b"
+                                            android:text="Xem thêm"
+                                            android:textAlignment="center"
+                                            android:textSize="15sp"></TextView>
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+
+                            </GridLayout>
+
+                        </LinearLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="60dp"
+                    android:outlineSpotShadowColor="#676666"
+                    app:cardCornerRadius="10dp">
+
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </ScrollView>
+</FrameLayout>

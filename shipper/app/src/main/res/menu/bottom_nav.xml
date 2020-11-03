@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/cc1"
+        android:title="Phổ biến"></item>
+    <item
+        android:id="@+id/nav_don"
+        android:icon="@drawable/cc2"
+        android:title="Bài hát"></item>
+    <item
+        android:id="@+id/nav_money"
+        android:icon="@drawable/cc3"
+        android:title="Khóa học"></item>
+    <item
+        android:id="@+id/nav_note"
+        android:icon="@drawable/cc4"
+        android:title="Playlist"></item>
+    <item
+        android:id="@+id/nav_danh"
+        android:icon="@drawable/cc5"
+        android:title="Yêu thích"></item>
+
+</menu>

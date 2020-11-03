@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ASM</string>
+    <string name="designer_pk01120">Designer: PK01120</string>
+    <string name="Tendangnhap">Tên đăng nhập</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="rematkhau">Nhập lại mật khẩu</string>
+    <string name="dangki">Đăng kí</string>
+    <string name="dangkied">Đã đăng kí?</string>
+    <string name="dangnhap">ĐĂNG NHẬP</string>
+    <string name="ch_a_ng_k">Chưa đăng kí?</string>
+    <string name="dangkia">ĐĂNG KÍ TÀI KHOẢN MỚI</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="checkbox">Nhớ mật khẩu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hoặc">hoặc</string>
+    <string name="ng_nh_p">\" đã đăng nhập\"</string>
+</resources>
