@@ -118,7 +118,6 @@ public class phoBien extends Fragment {
         db = new DatabaseHelper(getActivity(), "new.sqlite", null, 1);
         db.QueryData("CREATE TABLE IF NOT EXISTS BaiHat (Id INTEGER PRIMARY KEY AUTOINCREMENT, TenBaiHat VARCHAR(30), TacGia VARCHAR(100), LoiBaiHat VARCHAR(100), NgayGui VARCHAR(200)) ");
 
-        baihat = view.findViewById(R.id.lil_baiHat);
         lil_taoBaiHat = view.findViewById(R.id.lil_taoDon);
         baihat.setOnClickListener(new View.OnClickListener() {
             @Override
