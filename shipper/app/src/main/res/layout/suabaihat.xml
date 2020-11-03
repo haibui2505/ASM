@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/abcxyz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cv1"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="-12dp"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/ms"></ImageView>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="-2dp"
+                android:layout_marginTop="22dp"
+                android:layout_toEndOf="@+id/img2"
+                android:fontFamily="@font/c"
+                android:text="Sửa bài hát"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/img2"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="21dp"
+                app:srcCompat="@drawable/sa3" />
+
+            <EditText
+                android:id="@+id/edt_tenBaiHat"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/img2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Tên bài hát"
+                android:inputType="textLongMessage"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/imageView9"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="-3dp"
+                android:layout_marginTop="9dp"
+                app:srcCompat="@drawable/sa2" />
+
+            <EditText
+                android:id="@+id/edt_tacGia"
+                android:layout_width="371dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/edt_tenBaiHat"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Tác giả"
+                android:inputType="textLongMessage"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/imageView10"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/sa1" />
+
+            <EditText
+                android:id="@+id/edt_loiBaiHat"
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_tacGia"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="10dp"
+                android:hint="Lời bài hát"
+                android:inputType="textLongMessage"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_suaGuiHang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_loiBaiHat"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btnthemdiachi"
+                android:fontFamily="@font/c"
+                android:text="Sửa "
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
