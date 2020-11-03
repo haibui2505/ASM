@@ -10,13 +10,13 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.example.mama.fragments.FragmentCustomer;
 import com.google.android.material.snackbar.Snackbar;
 import com.teliver.sdk.core.Teliver;
 import com.teliver.sdk.models.UserBuilder;
 
 import app.qk.mama.R;
-import app.qk.mama.fragments.FragmentCustomer;
-import app.qk.mama.utils.Utils;
+
 
 public class ActivityCustomer extends AppCompatActivity implements FragmentManager.OnBackStackChangedListener {
 

@@ -19,7 +19,6 @@ import java.util.List;
 import java.util.Random;
 
 import app.qk.mama.R;
-import app.qk.mama.utils.Utils;
 
 
 public class FragmentCustomer extends Fragment {

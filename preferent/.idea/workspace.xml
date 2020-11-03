@@ -16,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="4.65_720p_Galaxy_Nexus_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="192.168.167.101:5555" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -36,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GroovyConsoleState">
     <option name="list">
       <list>
@@ -50,14 +53,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1fAY0wPuC2HhV05ZQXWyajfLECq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.44.108:5555" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-24T15:10:23.648Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.167.101:5555" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-13T08:45:42.181Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -145,10 +149,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="624" y="197" key="AndroidProcessChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1600774225194" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1601381674617">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1602578757268">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601381674617" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1602578757268" />
     <state width="1491" height="223" key="GridCell.Tab.0.bottom" timestamp="1600962921160">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

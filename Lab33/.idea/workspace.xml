@@ -12,7 +12,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="4.65_720p_Galaxy_Nexus_API_30" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -21,7 +20,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -49,7 +53,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-30T02:29:34.706Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Androi/MyApplication8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Androi/Lab33" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
@@ -130,10 +134,11 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1601381541676" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1601995004816">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="527" y="187" key="FileChooserDialogImpl" timestamp="1602791184135">
+      <screen x="0" y="0" width="1474" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601995004816" />
+    <state x="527" y="187" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1602791184135" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1602579168691" />
     <state width="1491" height="223" key="GridCell.Tab.0.bottom" timestamp="1601389891461">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -150,5 +155,13 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1491" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1601389891461" />
+    <state x="93" y="93" width="1350" height="678" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1602578661969">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="93" y="93" width="1350" height="678" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.864@0.0.1536.864" timestamp="1602578661969" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1602579142201">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1602579142201" />
   </component>
 </project>

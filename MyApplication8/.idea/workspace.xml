@@ -12,7 +12,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="192.168.167.101:5555" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="192.168.167.102:5555" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -42,7 +42,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-06T16:03:17.194Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyApplication11" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.-555541656">
@@ -134,9 +134,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="619" y="249" key="AndroidCreateXmlResourceDialog/0.0.1536.864@0.0.1536.864" timestamp="1600226091943" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1601995029420">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="527" y="187" key="FileChooserDialogImpl" timestamp="1602791138360">
+      <screen x="0" y="0" width="1474" height="864" />
     </state>
+    <state x="527" y="187" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1602791138360" />
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1601995029420" />
     <state width="1491" height="223" key="GridCell.Tab.0.bottom" timestamp="1600315641687">
       <screen x="0" y="0" width="1536" height="864" />
