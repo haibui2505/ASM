@@ -4,28 +4,47 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
+
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 
 public class TaoBaiHat extends AppCompatActivity {
 
     EditText tenBaiHat, tacGia, loiBaiHat;
-    Button btnBaiHat;
+    Button btnBaiHat, btnTinhtrang;
     DatabaseHelper db;
     SimpleDateFormat simpleDateFormat;
     Calendar calendar;
+    ListView lv;
+    ArrayList<String> arrayList;
+
+    FirebaseDatabase firebaseDatabase;
+    DatabaseReference reference;
 
 
     @Override
@@ -34,8 +53,12 @@ public class TaoBaiHat extends AppCompatActivity {
         setContentView(R.layout.thembaihat);
 
         ImageView imgback = findViewById(R.id.imgback);
+        arrayList = new ArrayList<>();
+        final ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList);
+        lv = findViewById(R.id.lv);
+        lv.setAdapter(adapter);
 
-
+        btnBaiHat = findViewById(R.id.button);
         tenBaiHat = findViewById(R.id.edt_tenBaiHat);
         tacGia = findViewById(R.id.edt_tacGia);
         loiBaiHat = findViewById(R.id.edt_loiBaiHat);
@@ -56,7 +79,59 @@ public class TaoBaiHat extends AppCompatActivity {
 
             }
         });
+        btnBaiHat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                adapter.clear();
+                firebaseDatabase = FirebaseDatabase.getInstance();
+                reference = firebaseDatabase.getReference("tinhTrang");
+                Query query = reference.orderByChild("tinhTrangg");
+                query.addChildEventListener(new ChildEventListener() {
+                    @Override
+                    public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+                        arrayList.add(dataSnapshot.getValue().toString());
+                        adapter.notifyDataSetChanged();
+                    }
 
+                    @Override
+                    public void onChildChanged(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+
+                    }
+
+                    @Override
+                    public void onChildRemoved(@NonNull DataSnapshot dataSnapshot) {
+
+                    }
+
+                    @Override
+                    public void onChildMoved(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
+
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                    }
+                });
+            }
+        });
+        findViewById(R.id.btnTrangthai).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                firebaseDatabase = FirebaseDatabase.getInstance();
+                reference = firebaseDatabase.getReference("tinhTrang");
+                EditText edtMa = findViewById(R.id.edtMadonhang);
+                EditText edtTrang = findViewById(R.id.edtTrangthai);
+                String maDonHang = edtMa.getText().toString().trim();
+                String trangThai = edtTrang.getText().toString().trim();
+                if (!maDonHang.equals("") && !trangThai.equals("")) {
+                    reference.child("1").child(maDonHang).child("trangThai").setValue(trangThai);
+                } else {
+                    Toast.makeText(TaoBaiHat.this, "vui lòng nhập dữ liệu!", Toast.LENGTH_SHORT).show();
+                }
+
+            }
+        });
         imgback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
