@@ -117,41 +117,6 @@
                                     </LinearLayout>
                                 </androidx.cardview.widget.CardView>
 
-                                <androidx.cardview.widget.CardView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="120dp"
-                                    android:layout_row="0"
-                                    android:layout_column="1"
-                                    android:layout_columnWeight="1"
-                                    android:layout_margin="10dp"
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_marginBottom="10dp"
-                                    android:elevation="1dp"
-                                    app:cardCornerRadius="10dp">
-
-                                    <LinearLayout
-                                        android:id="@+id/lil_baiHat"
-                                        android:layout_width="150dp"
-                                        android:layout_height="match_parent"
-                                        android:layout_gravity="center"
-                                        android:orientation="vertical">
-
-                                        <ImageView
-                                            android:layout_width="match_parent"
-                                            android:layout_height="80dp"
-                                            android:src="@drawable/xx1">
-
-                                        </ImageView>
-
-                                        <TextView
-                                            android:layout_width="match_parent"
-                                            android:layout_height="wrap_content"
-                                            android:fontFamily="@font/b"
-                                            android:text="Bài hát"
-                                            android:textAlignment="center"
-                                            android:textSize="15sp"></TextView>
-                                    </LinearLayout>
-                                </androidx.cardview.widget.CardView>
 
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="wrap_content"
@@ -185,7 +150,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:fontFamily="@font/b"
-                                            android:text="Xem bớt"
+                                            android:text="Tin nhắn"
                                             android:textAlignment="center"
                                             android:textSize="15sp"></TextView>
                                     </LinearLayout>
@@ -194,8 +159,8 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="wrap_content"
                                     android:layout_height="120dp"
-                                    android:layout_row="1"
-                                    android:layout_column="1"
+                                    android:layout_row="2"
+                                    android:layout_column="0"
                                     android:layout_columnWeight="1"
                                     android:layout_margin="10dp"
                                     android:layout_marginVertical="10dp"
@@ -222,82 +187,7 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:fontFamily="@font/b"
-                                            android:text="Xem bớt"
-                                            android:textAlignment="center"
-                                            android:textSize="15sp"></TextView>
-                                    </LinearLayout>
-                                </androidx.cardview.widget.CardView>
-
-                                <androidx.cardview.widget.CardView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="120dp"
-                                    android:layout_row="2"
-                                    android:layout_column="0"
-                                    android:layout_columnWeight="1"
-                                    android:layout_margin="10dp"
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_marginBottom="10dp"
-                                    android:elevation="5dp"
-                                    app:cardCornerRadius="10dp">
-
-                                    <LinearLayout
-                                        android:id="@+id/lil_more"
-                                        android:layout_width="150dp"
-                                        android:layout_height="match_parent"
-                                        android:layout_gravity="center"
-                                        android:orientation="vertical">
-
-                                        <ImageView
-                                            android:layout_width="match_parent"
-                                            android:layout_height="80dp"
-                                            android:src="@drawable/mm1">
-
-                                        </ImageView>
-
-                                        <TextView
-                                            android:layout_width="match_parent"
-                                            android:layout_height="wrap_content"
-                                            android:fontFamily="@font/b"
-                                            android:text="Xem thêm"
-                                            android:textAlignment="center"
-                                            android:textSize="15sp"></TextView>
-                                    </LinearLayout>
-                                </androidx.cardview.widget.CardView>
-
-                                <androidx.cardview.widget.CardView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="120dp"
-                                    android:layout_row="2"
-                                    android:layout_column="1"
-                                    android:layout_columnWeight="1"
-                                    android:layout_margin="10dp"
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_marginBottom="10dp"
-                                    android:elevation="5dp"
-                                    app:cardCornerRadius="10dp">
-
-                                    <LinearLayout
-                                        android:id="@+id/lil_more"
-                                        android:layout_width="150dp"
-                                        android:layout_height="match_parent"
-                                        android:layout_gravity="center"
-                                        android:orientation="vertical"
-                                        tools:ignore="DuplicateIds">
-
-                                        <ImageView
-                                            android:layout_width="match_parent"
-                                            android:layout_height="80dp"
-                                            android:src="@drawable/mm2">
-
-                                        </ImageView>
-
-                                        <TextView
-                                            android:layout_width="match_parent"
-                                            android:layout_height="wrap_content"
-                                            android:fontFamily="@font/b"
-                                            android:text="Xem thêm"
+                                            android:text="Thông báo"
                                             android:textAlignment="center"
                                             android:textSize="15sp"></TextView>
                                     </LinearLayout>
