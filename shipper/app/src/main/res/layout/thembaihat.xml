@@ -125,8 +125,7 @@
             android:layout_marginTop="32dp"
             android:layout_marginEnd="30dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/edtTrangthai"
@@ -137,8 +136,30 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="30dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtKhachHang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtTrangthai"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/maKhachHang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="35dp"
+            android:text="khachHang"
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
     </RelativeLayout>
 </RelativeLayout>

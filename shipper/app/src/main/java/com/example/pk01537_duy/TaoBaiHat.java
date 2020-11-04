@@ -122,10 +122,12 @@ public class TaoBaiHat extends AppCompatActivity {
                 reference = firebaseDatabase.getReference("tinhTrang");
                 EditText edtMa = findViewById(R.id.edtMadonhang);
                 EditText edtTrang = findViewById(R.id.edtTrangthai);
+                EditText edtKhach = findViewById(R.id.edtKhachHang);
+                String khachHang = edtKhach.getText().toString().trim();
                 String maDonHang = edtMa.getText().toString().trim();
                 String trangThai = edtTrang.getText().toString().trim();
                 if (!maDonHang.equals("") && !trangThai.equals("")) {
-                    reference.child("1").child(maDonHang).child("trangThai").setValue(trangThai);
+                    reference.child(khachHang).child(maDonHang).child("trangThai").setValue(trangThai);
                 } else {
                     Toast.makeText(TaoBaiHat.this, "vui lòng nhập dữ liệu!", Toast.LENGTH_SHORT).show();
                 }
